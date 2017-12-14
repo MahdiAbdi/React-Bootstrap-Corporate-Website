@@ -2,7 +2,7 @@
 @import "../scss/bootstrap/bootstrap.scss";
 
 // Bootstrap RTL Conditional Importing
-$rtl : true;
+$rtl : false;
 @if $rtl {
 	body {
 	    direction: rtl;
@@ -1201,16 +1201,16 @@ $rtl : true;
 }
 
 // Components Styles Importing
-@import "./components/home";
-@import "./components/navbar";
-@import "./components/about-us";
-@import "./components/services";
-@import "./components/subscribe";
-@import "./components/portfolio";
-@import "./components/testimonials";
-@import "./components/our-team";
-@import "./components/contact-us";
-@import "./components/footer";
+@import "../Components/components/home";
+@import "../Components/components/navbar";
+@import "../Components/components/about-us";
+@import "../Components/components/services";
+@import "../Components/components/subscribe";
+@import "../Components/components/portfolio";
+@import "../Components/components/testimonials";
+@import "../Components/components/our-team";
+@import "../Components/components/contact-us";
+@import "../Components/components/footer";
 
 // User Styles Importing
 @import "userstyle.scss"
