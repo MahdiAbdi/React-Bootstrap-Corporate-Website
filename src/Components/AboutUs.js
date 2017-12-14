@@ -25,7 +25,6 @@ class AboutUs extends Component {
       </div>
     )
   }
-
 }
 
 export default AboutUs;

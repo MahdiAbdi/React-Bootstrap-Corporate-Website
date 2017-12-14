@@ -1,0 +1,76 @@
+.services {
+	margin-top: 80px;
+	background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(https://bootstrapmade.com/demo/themes/Imperial/img/services-bg.jpg) fixed center center;
+	background-size: cover;
+	padding: 40px 0 60px 0;
+	.service-item {
+		// @if $rtl {
+		// 	float: right;
+		// }
+		margin-bottom: 20px;
+		position: relative;
+		&:hover {
+			.service-icon {
+				background: #fff;
+				i {
+					color: $color_1;
+				}
+			}
+		}
+	}
+	.service-icon {
+		display: inline-block;
+		float: left;
+		// @if $rtl {
+		// 	float: right;
+		// }
+		background: #03C4EB;
+		padding: 16px;
+		border-radius: 50%;
+		transition: 0.5s;
+		border: 1px solid #03C4EB;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		i {
+			color: $color_3;
+			font-size: 24px;
+		}
+	}
+	.service-data {
+		// @if $rtl {
+		// 	display: inline-block;
+		// 	float: right;
+		// 	max-width: 65%;
+		// 	padding-right: 20px;
+		// }
+	}
+	.service-title {
+		margin-left: 80px;
+		font-weight: 700;
+		margin-bottom: 15px;
+		text-transform: uppercase;
+		a {
+			color: $color_5;
+			font-size: 18px;
+		}
+		// @if $rtl {
+		// 	text-align: right;
+		// 	float: right;
+		// 	margin: 0;
+		// }
+	}
+	.service-description {
+		word-wrap: break-word;
+		margin-left: 80px;
+		line-height: 24px;
+		color: $color_7;
+		font-family: $OpenSans;
+		font-size: 14px;
+		// @if $rtl {
+		// 	text-align: right;
+		// 	float: right;
+		// 	margin: 0;
+		// }
+	}
+}

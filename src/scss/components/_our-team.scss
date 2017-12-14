@@ -1,0 +1,42 @@
+.ourTeam {
+	background: #fff;
+	padding: 80px 0 60px 0;
+	.member {
+		// @if $rtl {
+		// 	float: right;
+		// }
+		text-align: center;
+		margin-bottom: 20px;
+		display: inline-block;
+		.img {
+			margin-bottom: 15px;
+			overflow: hidden;
+			height: 260px;
+			img {
+				max-height: 100%;
+			}
+		}
+		h4 {
+			font-weight: 700;
+			margin-bottom: 2px;
+		}
+		h5 {
+			font-style: italic;
+			display: block;
+			font-size: 13px;
+		}
+		.social {
+			margin-top: 15px;
+			a {
+				color: $color_9;
+				&:hover {
+					color: $color_1;
+				}
+			}
+			i {
+				font-size: 18px;
+				margin: 0 2px;
+			}
+		}
+	}
+}
