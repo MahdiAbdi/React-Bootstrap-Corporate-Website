@@ -1218,6 +1218,7 @@ $rtl : false;
 	font-weight: 300;
 	src: local('Raleway Light'), local('Raleway-Light'), url(https://fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format('woff2');
 }
+
 @keyframes "fadein" {
 	from {
 		opacity: 0;
@@ -1226,6 +1227,7 @@ $rtl : false;
 		opacity: 1;
 	}
 }
+
 @import "./components/home";
 @import "./components/navbar";
 @import "./components/about-us";
