@@ -1,0 +1,61 @@
+.testimonials {
+	padding: 80px 0;
+	.client {
+		text-align: center;
+		.img {
+			border-radius: 50%;
+			margin-bottom: 15px;
+			overflow: hidden;
+			height: 260px;
+			width: 260px;
+			img {
+				max-width: 100%;
+			}
+		}
+		h4 {
+			margin-bottom: 5px;
+		}
+	}
+	.profile {
+		h5 {
+		}
+	}
+	.quote {
+		position: relative;
+		padding: 40px;
+		margin-top: 40px;
+		border-radius: 5px;
+		height: auto;
+		max-height: 200px;
+		b {
+			display: inline-block;
+			left: -9px;
+			position: relative;
+			top: -8px;
+		}
+		small {
+			display: inline-block;
+			right: -9px;
+			position: relative;
+			top: 4px;
+		}
+	}
+}
+.testimonial {
+	&:nth-child(even) {
+		.client {
+			float: left;
+		}
+		.quote {
+			float: right;
+		}
+	}
+	&:nth-child(odd) {
+		.client {
+			float: right;
+		}
+		.quote {
+			float: left;
+		}
+	}
+}

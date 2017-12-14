@@ -4,18 +4,16 @@ import { Row, Col } from 'react-bootstrap';
 class Portfolio extends Component {
 
   bgDefiner(portfolio) {
-    let portfolioo;
     return {
       backgroundImage: `url(${portfolio.img})`
     };
   }
 
   widthDefiner() {
-    // let customWidth = Math.floor(100/this.props.column);
-    let customWidth = 50;
+    let customWidth = Math.floor(100/this.props.column);
     console.log("portfolio",this.props.column,customWidth);
     let widthStyle = {
-      width: `${customWidth}% !important`
+      'flex-basis': `${customWidth}%`
     }
     return widthStyle;
   }

@@ -1,0 +1,35 @@
+.ourTeam {
+	padding: 80px 0 60px 0;
+	.member {
+		// @if $rtl {
+		// 	float: right;
+		// }
+		text-align: center;
+		margin-bottom: 20px;
+		display: inline-block;
+		.img {
+			margin-bottom: 15px;
+			overflow: hidden;
+			height: 260px;
+			img {
+				max-height: 100%;
+			}
+		}
+		h4 {
+			margin-bottom: 2px;
+		}
+		h5 {
+			display: block;
+		}
+		.social {
+			margin-top: 15px;
+			a {
+				&:hover {
+				}
+			}
+			i {
+				margin: 0 2px;
+			}
+		}
+	}
+}

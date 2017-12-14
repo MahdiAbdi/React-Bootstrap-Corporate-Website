@@ -7,7 +7,9 @@ class OurTeam extends Component {
     let customWidth = Math.floor(100/this.props.column);
     console.log(this.props.column,customWidth);
     let widthStyle = {
-      width: `${customWidth}%`
+      width: `${customWidth}%`,
+      'max-width': `${customWidth}%`,
+      'flex-base': `${customWidth}%`
     }
     return widthStyle;
   }

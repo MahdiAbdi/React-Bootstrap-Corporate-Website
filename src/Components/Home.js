@@ -4,9 +4,10 @@ import { Jumbotron } from 'react-bootstrap';
 class Home extends Component {
   constructor(props) {
     super(props);
+    let initText = this.props.descriptions[0];
     this.state = {
       textCounter : 1,
-      text: 'Beautiful Graphics',
+      text: initText,
     }
     this.textChanger = this.textChanger.bind(this);
   }
@@ -24,7 +25,7 @@ class Home extends Component {
 
   bgDefiner() {
     return {
-      background: `url( ${this.props.background}) top center fixed`
+      background: `url(${this.props.background}) top center fixed`
     };
   }
 
@@ -39,7 +40,7 @@ class Home extends Component {
   }
   render() {
     return(
-      <Jumbotron style={this.bgDefiner()}>
+      <Jumbotron className="jumb" style={this.bgDefiner()}>
         <div className="home-container">
           <div className="logo">
             <img src={this.props.logo} />

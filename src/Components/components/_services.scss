@@ -1,0 +1,40 @@
+.services {
+	margin-top: 80px;
+	background-size: cover;
+	padding: 40px 0 60px 0;
+	.service-item {
+		margin-bottom: 20px;
+		position: relative;
+		&:hover {
+			.service-icon {
+				i {
+				}
+			}
+		}
+	}
+	.service-icon {
+		display: inline-block;
+		float: left;
+		padding: 16px;
+		border-radius: 50%;
+		transition: 0.5s;
+		border: 1px solid #03C4EB;
+		width: 60px;
+		height: 60px;
+		text-align: center;
+		i {
+		}
+	}
+	.service-data {
+	}
+	.service-title {
+		margin-left: 80px;
+		margin-bottom: 15px;
+		a {
+		}
+	}
+	.service-description {
+		word-wrap: break-word;
+		margin-left: 80px;
+	}
+}

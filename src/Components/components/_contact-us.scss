@@ -1,0 +1,61 @@
+.contactUs {
+	background: #f7f7f7;
+	padding: 80px 0;
+	.info {
+		i {
+			font-size: 32px;
+			float: left;
+		}
+		p {
+			padding: 0 0 10px 50px;
+		}
+	}
+	// Form Styles Not Deleted!
+	.form {
+		#sendmessage {
+			border: 1px solid #03C4EB;
+			display: none;
+			text-align: center;
+			padding: 15px;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+		#errormessage {
+			display: none;
+			border: 1px solid red;
+			text-align: center;
+			padding: 15px;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+		#sendmessage.show {
+			display: block;
+		}
+		#errormessage.show {
+			display: block;
+		}
+		.show {
+			display: block;
+		}
+		.validation {
+			display: none;
+			margin: 0 0 20px;
+			font-weight: 400;
+			font-size: 13px;
+		}
+		input {
+			border-radius: 0;
+			box-shadow: none;
+		}
+		textarea {
+			border-radius: 0;
+			box-shadow: none;
+		}
+		button[type="submit"] {
+			border: 0;
+			padding: 10px 24px;
+			&:hover {
+			}
+		}
+	}
+}
