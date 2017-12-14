@@ -15,9 +15,15 @@ class OurServices extends Component {
     return widthStyle;
   }
 
+  bgDefiner() {
+    return {
+      background: `linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(${this.props.background}) fixed center center`
+    };
+  }
+
   render() {
     return(
-      <div className="services">
+      <div className="services" style={this.bgDefiner()}>
         <div className="container">
           <h1 className="section-title"><strong>Our Services</strong></h1>
           <div className="section-title-divider"></div>

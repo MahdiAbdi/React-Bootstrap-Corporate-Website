@@ -1,29 +1,14 @@
 .subscribe {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://bootstrapmade.com/demo/themes/Imperial/img/subscribe-bg.jpg) fixed center center;
 	background-size: cover;
 	padding: 80px 0;
 	.container {
 		.text {
-			// @if $rtl {
-			// 	float: right;
-			// 	text-align: right;
-			// }
-			color: $color_3;
 			h2 {
-				font-size: 28px;
-				font-weight: 700;
 			}
 		}
 		a {
-			font-family: $Raleway;
-			text-transform: uppercase;
-			font-weight: 500;
-			font-size: 16px;
-			letter-spacing: 1px;
 			display: inline-block;
 			padding: 8px 20px;
-			border-radius: 2px;
-			transition: 0.5s;
 			margin: 10px;
 		}
 		.btn {

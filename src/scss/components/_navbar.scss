@@ -1,5 +1,4 @@
 nav.navbar.navbar-default {
-	background: #000;
 	border: none;
 	border-radius: 0;
 	margin: 0;
@@ -8,9 +7,6 @@ nav.navbar.navbar-default {
 }
 nav {
 	.navbar-header {
-		// @if $rtl {
-		// 	float: right;
-		// }
 	}
 	img {
 		height: 50px;
@@ -23,28 +19,16 @@ nav ul {
 	>li {
 		display: inline-block;
 		width: 15%;
-		color: #fff;
-		// @if $rtl {
-		// 	float: right;
-		// }
 		>a {
 			padding-top: 30px;
-			font-family: $Raleway;
-			font-weight: 300;
-			font-size: 14px;
 		}
 	}
-	// @if $rtl {
-	// 	float: left !important;
-	// }
 }
 
 nav ul {
 	>li {
 		>a {
-			color: $color_3;
 			&:hover {
-				color: $color_1;
 			}
 		}
 	}
@@ -53,19 +37,16 @@ nav ul {
 .nav-menu {
 	a {
 		&:hover {
-			color: $color_1;
 		}
 	}
 	li {
 		&:hover {
 			>a {
-				color: $color_1;
 			}
 		}
 	}
 	.menu-active {
 		>a {
-			color: $color_1;
 		}
 	}
 }

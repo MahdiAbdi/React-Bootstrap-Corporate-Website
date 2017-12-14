@@ -25,7 +25,7 @@ class Home extends Component {
 
   bgDefiner() {
     return {
-      background: `url( ${this.props.background}) top center fixed`
+      background: `url(${this.props.background}) top center fixed`
     };
   }
 

@@ -2,9 +2,20 @@ import React, { Component } from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 class Subscribe extends Component {
+
+  constructor(props) {
+    super(props);
+  }
+
+  bgDefiner() {
+    return {
+      background: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${this.props.background}) fixed center center;`
+    };
+  }
+
   render() {
     return(
-      <div className="subscribe">
+      <div className="subscribe" style={this.bgDefiner()}>
         <div className="container">
           <Row>
             <Col md={8} className="text">

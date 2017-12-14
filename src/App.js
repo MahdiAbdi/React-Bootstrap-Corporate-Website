@@ -152,6 +152,7 @@ class App extends Component {
         title: "Subscribe For Updates",
         description: "Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!",
         btn: "Subscribe Now!",
+        background: 'https://bootstrapmade.com/demo/themes/Imperial/img/subscribe-bg.jpg',
       },
       portfolio : {
         title: 'Portfolio',
@@ -233,6 +234,7 @@ class App extends Component {
       ourServices : {
         description: "We provide great services and ideasWe provide great services and ideas",
         column: 4,
+        background: 'https://bootstrapmade.com/demo/themes/Imperial/img/services-bg.jpg',
         services : [
           {
             glyph: 'tag',
@@ -318,8 +320,8 @@ class App extends Component {
         <Home logo={this.state.home.logo} brand={this.state.home.brand} descriptions={this.state.home.descriptions} background={this.state.home.background} buttons={this.state.home.buttons} interval={this.state.home.interval} />
         <NavBar brand={this.state.navBar.brand} navItems={this.state.navBar.navItems} />
         <AboutUs title={this.state.aboutUs.title} text={this.state.aboutUs.text} description={this.state.aboutUs.description} background={this.state.aboutUs.background} />
-        <OurServices services={this.state.ourServices.services} description={this.state.ourServices.description} column={this.state.ourServices.column} />
-        <Subscribe title={this.state.subscribe.title} description={this.state.subscribe.description} btn={this.state.subscribe.btn} />
+        <OurServices services={this.state.ourServices.services} description={this.state.ourServices.description} column={this.state.ourServices.column} background={this.state.ourServices.background} />
+        <Subscribe title={this.state.subscribe.title} description={this.state.subscribe.description} btn={this.state.subscribe.btn} background={this.state.subscribe.background} />
         <Portfolio title={this.state.portfolio.title} description={this.state.portfolio.description} portfolios={this.state.portfolio.portfolios} column={this.state.portfolio.column} />
         <Testimonials title={this.state.testimonials.title} description={this.state.testimonials.description} data={this.state.testimonials.data} limit={this.state.testimonials.limit} />
         <OurTeam title={this.state.ourTeam.title} description={this.state.ourTeam.description} data={this.state.ourTeam.data} column={this.state.ourTeam.column} limit={this.state.ourTeam.limit} socials={this.state.ourTeam.socials} />
