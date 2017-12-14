@@ -1226,39 +1226,6 @@ $rtl : false;
 		opacity: 1;
 	}
 }
-body {
-	margin: 0;
-	padding: 0;
-}
-a {
-	color: $color_1;
-	transition: 0.5s;
-	&:hover {
-		color: $color_2;
-		outline: none;
-		text-decoration: none;
-	}
-	&:active {
-		color: $color_2;
-		outline: none;
-		text-decoration: none;
-	}
-	&:focus {
-		color: $color_2;
-		outline: none;
-		text-decoration: none;
-	}
-}
-p {
-	padding: 0;
-	margin: 0 0 30px 0;
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: $Raleway;
-	font-weight: 400;
-	margin: 0 0 20px 0;
-	padding: 0;
-}
 @import "./components/home";
 @import "./components/navbar";
 @import "./components/about-us";
