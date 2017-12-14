@@ -11,12 +11,12 @@ class NavBar extends Component {
             <a href="#"><img src="https://bootstrapmade.com/demo/themes/Imperial/img/logo.png" /></a>
           </Navbar.Brand>
         </Navbar.Header>
-        <Nav pullRight>
+        <ul>
           {
             this.props.navItems.map((item, index) =>
-              <NavItem eventKey={index} href={item.href}>{item.name}</NavItem>)
+              <li key={index}><a href={item.href}>{item.name}</a></li>)
           }
-        </Nav>
+        </ul>
       </Navbar>
     )
   }

@@ -269,7 +269,7 @@ class App extends Component {
       testimonials : {
         title: 'Testimonials',
         description: 'Erdo lide, nora porodo filece, salvam esse se, quod concedimus ses haec dicturum fuisse',
-        limit: 4,
+        limit: 3,
         data : [
           {
             name: 'Saul Goodman',
